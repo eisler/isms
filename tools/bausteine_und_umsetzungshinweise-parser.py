@@ -17,7 +17,7 @@ anforderungen=[]
 
 #dann gehen wir den heruntergeladenen Ordner durch und parsen jede vorhandene HTML-Datei
 
-for filename in glob.glob("/home/eisler/Dokumente/html_kompendium2020/bausteine_und_umsetzungshinweise/*"):   #in dem Ordner befinden sich die HTML-Dateien
+for filename in glob.glob("/Users/eisler/Downloads/html_kompendium2020/bausteine_und_umsetzungshinweise/*"):   #in dem Ordner befinden sich die HTML-Dateien
     file=open(filename,errors='ignore',encoding='utf-8')                #ohne das encoding werden Umlaute fehlerhaft angezeigt
     soup = BeautifulSoup(file, 'html.parser')                           #pro File bauen wir uns ein soup-objekt
 #Beautifulsoup arbeitet mit Tags, die in einer Liste gespeichert werden. Wir gehen jedes Tag durch und hangeln uns in der Hierarchie der HTML-Datei zu dem Punkt, den wir haben wollen. Den Inhalt fügen wir dann an die eingangs erstellten Listen an
@@ -47,4 +47,4 @@ print (len(GSC))
 
 #und am Schluss speichern wir die Tabelle noch im Excel-Format ab. Den Index benötigen wir dabei nicht
 
-GSC.to_csv("/home/eisler/Dokumente/GSC_Kompendium_gesamt.csv",index=False)
+GSC.to_csv("/Users/eisler/Downloads/GSC_Kompendium_gesamt.csv",index=False)
