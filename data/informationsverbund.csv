@@ -1,8 +1,8 @@
-1,Geschäftsprozesse
-2,Anwendungen
-3,IT-Systeme
-4,Netze
-5,Kommunikationsverbindungen
-6,Gebäude
-7,Räume
-8,Personen
+1,Geschäftsprozesse,"Name, Beschreibung, fachverantwortliche Stelle"
+2,Anwendungen,Name und Beschreibungen
+3,IT-Systeme,Name, Systemplattform und eventuell Aufstellungsort
+4,Netze,Name und Beschreibungen
+5,Kommunikationsverbindungen,Name und Beschreibungen
+6,Gebäude,Name und Beschreibungen
+7,Räume,"Art, Raumnummer und Gebäude"
+8,Personen,Name und Beschreibungen
