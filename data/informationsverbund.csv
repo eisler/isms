@@ -9,3 +9,5 @@ Id,Type,Daten
 8,Gebäude,Name und Beschreibungen
 9,Räume,"Art, Raumnummer und Gebäude"
 10,Personen,Name und Beschreibungen
+11,Vorfälle,"Ereignis, Datum"
+12,Aufzeichnungen,"Titel, Dokument"
