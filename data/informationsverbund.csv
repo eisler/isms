@@ -1,10 +1,10 @@
 1,Geschäftsprozesse,"Name, Beschreibung, fachverantwortliche Stelle"
 2,Anwendungen,Name und Beschreibungen
 3,IT-Systeme,"Name, Systemplattform und eventuell Aufstellungsort"
-4ICS-System,"Name, Aufstellungsort"
-5IOT-System,"Name, Aufstellungsort"
-6Netze,Name und Beschreibungen
-7Kommunikationsverbindungen,Name und Beschreibungen
-8Gebäude,Name und Beschreibungen
-9Räume,"Art, Raumnummer und Gebäude"
+4,ICS-System,"Name, Aufstellungsort"
+5,IOT-System,"Name, Aufstellungsort"
+6,Netze,Name und Beschreibungen
+7,Kommunikationsverbindungen,Name und Beschreibungen
+8,Gebäude,Name und Beschreibungen
+9,Räume,"Art, Raumnummer und Gebäude"
 10,Personen,Name und Beschreibungen
