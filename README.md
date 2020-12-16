@@ -7,3 +7,4 @@ https://de.wikipedia.org/wiki/Information_Security_Management_System
 * /data/krt2020.csv - Kreuzreferenztabellen zum BSI IT-Grundschutz-Kompendium Edition 2020
 * /data/2020_elementare_gefaehrdungen.csv - Elementare Gefährdungen zum BSI IT-Grundschutz-Kompendium Edition 2020
 * /data/informationsverbund.csv - Informationsverbund
+* /data/Klassendiagramm.puml - Informationsverbund als Klassendiagramm im PlantUML Format.
