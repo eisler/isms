@@ -1,0 +1,32 @@
+@startuml
+Organisation -* Personal : ist Mitglied von <
+
+Prozess *- Informationen : benötigt >
+Prozess *- Organisation : wird durchgeführt von >
+Prozess *- Anwendung : wird durchgeführt von >
+
+Organisation *- "IT-System" : nutzt/wartet >
+Organisation *- "IOT-System" : nutzt/wartet >
+Organisation *- "ICS-System" : nutzt/wartet >
+Organisation *- Anwendung : nutzt/wartet >
+Organisation *- Raum : arbeitet in >
+
+Anwendung *- "IT-System" :  wird betrieben auf >
+Anwendung *- "IOT-System" :  wird betrieben auf >
+Anwendung *- "ICS-System" :  wird betrieben auf >
+
+"IT-System" *- Raum : steht in >
+"IOT-System" *- Raum : steht in >
+"ICS-System" *- Raum : steht in >
+"IT-System" *- Netze : kommuniziert über >
+"IOT-System" *- Netze : kommuniziert über >
+"ICS-System" *- Netze : kommuniziert über >
+
+Raum *- Gebäude : ist in >
+
+Gebäude *- Standort : steht in >
+
+class Vorfälle
+
+class Aufzeichnungen
+@enduml
